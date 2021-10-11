@@ -1,0 +1,65 @@
+main {
+    margin: 100px 8% 0 8%;
+}
+
+main > h2 {
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+}
+
+.homepage-wrapper {
+    display: flex;
+}
+
+.filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.count-text {
+    margin: 1.5rem 0;
+}
+
+label {
+    width: 100%;
+    display: block;
+}
+
+.checkBox {
+    margin: 0.8rem 0;
+    margin-right: 0.6rem;
+}
+
+#count {
+    padding-left: 4px;
+}
+
+.order-section {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    font-size: 14px;
+    padding: 12px 24px;
+}
+
+td {
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+}
+.light {
+    color: #8c8c8c;
+}
+
+.lightP {
+    font-size: 14px;
+    margin-top: 3px;
+    font-weight: 500;
+}

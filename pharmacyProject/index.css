@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(246,247,251);
+}
+main {
+    margin-top: 100px;
+}
+
+header {
+    width:100%;
+    display: flex;
+    background-color: #fff;
+    position: fixed;
+    top:0;
+    left:0;
+    box-shadow: 0 2px 4px #ccc;
+    padding: 0 48px;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    padding-right: 36px;
+    align-items: center;
+}
+
+.logo > img {
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.logo-text {
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+
+nav {
+    display: flex;
+}
+
+.nav-items {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-bottom: 4px solid #fff;
+}
+
+.bot-border {
+    border-bottom: 4px solid #20b883;
+    color:#20b883;
+}
+
+.sign-in-card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #ccc;
+}
+
+
+.sign-in-card > h1 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+
+
+.inp {
+    width: 100%;
+    padding-top: 16px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.submitBtn {
+    color: #fff;
+    background-color: #20b883;
+    outline: none;
+    border: 0;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    margin-top: 1.2rem;
+}
